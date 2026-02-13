@@ -1,10 +1,8 @@
 {
-  "category": "CONSPIRACY_THEORY",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/montauk-project",
     "maintainers": [
       {
@@ -18,431 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "montauk-project",
     "name": "Montauk Project",
-    "aliases": [
-      {
-        "name": "Phoenix Project",
-        "meaning": "Alleged continuation of Philadelphia Experiment"
-      },
-      {
-        "name": "Montauk Chair",
-        "meaning": "Named for alleged mind amplification device"
-      }
-    ],
-    "category": "CONSPIRACY_THEORY",
-    "subcategory": "Government experiment",
+    "aliases": [],
+    "category": "|_CONSPIRACY_THEORY_|",
+    "subcategory": "| Description | Alleged Outcome |",
     "tags": [
-      "time-travel",
-      "mind-control",
-      "teleportation",
-      "government-conspiracy",
-      "new-york",
-      "aliens",
-      "unfounded"
+      "folklore",
+      "mythology"
     ],
-    "status": "debunked",
+    "status": "documented",
     "description": {
-      "summary": "Alleged secret government experiments in time travel, teleportation, and mind control conducted at Camp Hero/Montauk Air Force Station in the 1970s-1980s. Claims based on 'recovered memories' with no credible evidence.",
-      "full": "The Montauk Project refers to alleged secret US government experiments conducted at Montauk Air Force Station (Camp Hero) in Montauk, New York, during the 1970s and 1980s. According to the conspiracy theory, the experiments involved time travel, teleportation, mind control, contact with extraterrestrials, and kidnapping of youth for psychological experiments. The claims originated with Preston Nichols, who published a series of bestselling books beginning in 1992 based on what he claimed were 'recovered memories.' Despite extensive investigation, no credible evidence has been found to support any of the claims, and the theory is widely considered conspiracy fiction by researchers and historians."
+      "summary": "The Montauk Project refers to alleged secret US government experiments conducted at Montauk Air Force Station (Camp Hero) in Montauk, New York, during the 1970s and 1980s.",
+      "full": "The Montauk Project refers to alleged secret US government experiments conducted at Montauk Air Force Station (Camp Hero) in Montauk, New York, during the 1970s and 1980s. According to the conspiracy theory, the experiments involved time travel, teleportation, mind control, contact with extraterrestrials, and kidnapping of youth for psychological experiments. The claims originated with Preston Nichols, who published a series of bestselling books beginning in 1992 based on what he claimed were \\\"recovered memories.\\\" Despite extensive investigation, **no credible evidence has been found** to support any of the claims, and the theory is widely considered **conspiracy fiction** by researchers and historians."
     },
     "etymology": {
-      "origin": "Named after Montauk, New York, where the alleged experiments took place",
-      "meaning": "Project supposedly began in 1971, peaked in 1980s",
-      "first_use": "1992 with Preston Nichols' first book publication"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "CONSPIRACY_THEORY",
-      "type": "Government experiment",
-      "subtype": "Time travel / Mind control",
-      "variant": "Based on 'recovered memories'"
+      "category": "|_CONSPIRACY_THEORY_|",
+      "type": "| Description | Alleged Outcome |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "philadelphia-experiment",
-        "name": "Philadelphia Experiment",
-        "relationship": "alleged_predecessor",
-        "description": "Montauk allegedly continuation of this debunked experiment"
-      },
-      {
-        "id": "dulce-base",
-        "name": "Dulce Base",
-        "relationship": "similar",
-        "description": "Similar underground base conspiracy theory"
-      },
-      {
-        "id": "mk-ultra",
-        "name": "MK-Ultra",
-        "relationship": "inspiration",
-        "description": "Real CIA mind control program that inspired conspiracy theories"
-      },
-      {
-        "id": "stranger-things",
-        "name": "Stranger Things",
-        "relationship": "inspired_fiction",
-        "description": "TV series partially inspired by Montauk Project"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
-    "alleged_location": {
-      "description": "Camp Hero/Montauk Air Force Station, Montauk, Long Island, New York",
-      "country": "United States",
-      "region": "New York",
-      "locality": "Montauk, Long Island",
-      "coordinates": {
-        "latitude": 41.0685,
-        "longitude": -71.8565,
-        "precision": "exact"
-      },
-      "status": "Real location - decommissioned Air Force radar base, now state park"
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "alleged_timeline": {
-      "start": "1971",
-      "peak": "1970s-1983",
-      "end": "1983 (alleged shutdown)",
-      "reporting": "1992 (first book published)"
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "alleged_experiments": [
-      {
-        "type": "Time travel",
-        "description": "Creating portals to different time periods",
-        "claims": [
-          "Portal to 1943 (Philadelphia Experiment connection)",
-          "Portal to future dates",
-          "Time loop creation"
-        ]
-      },
-      {
-        "type": "Teleportation",
-        "description": "Instant transportation of matter",
-        "claims": [
-          "Portal to Mars",
-          "Dinosaur encounter in prehistoric time",
-          "Transportation to other dimensions"
-        ]
-      },
-      {
-        "type": "Mind control",
-        "description": "Psychological manipulation and amplification",
-        "claims": [
-          "The Montauk Chair - mind reading/amplification device",
-          "Psychic experiments",
-          "Remote influencing of thoughts"
-        ]
-      },
-      {
-        "type": "Alien contact",
-        "description": "Communication with extraterrestrials",
-        "claims": [
-          "Grey alien involvement",
-          "Technology exchange",
-          "Hybrid programs"
-        ]
-      },
-      {
-        "type": "Youth abduction",
-        "description": "Kidnapping children for experiments",
-        "claims": [
-          "Homeless and runaway youth targeted",
-          "Memory erasure",
-          "Psychological trauma"
-        ]
-      }
-    ],
-    "alleged_technology": {
-      "montauk_chair": {
-        "description": "Alleged mind amplification device",
-        "function": "Amplify psychic thoughts to create physical reality",
-        "basis": "No evidence, purely from Nichols' claims"
-      },
-      "sage_radar": {
-        "description": "Real SAGE radar system at Camp Hero",
-        "alleged_use": "Modified for mind control and time manipulation",
-        "reality": "Standard Cold War air defense radar, decommissioned 1980"
-      },
-      "time_tunnel": {
-        "description": "Portal allowing time travel",
-        "claims": "Connected to Philadelphia Experiment in 1943",
-        "evidence": "None"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "genesis": "Claims originated with Preston Nichols in early 1990s, claiming 'recovered memories' of working on secret project",
-      "influences": [
-        "Philadelphia Experiment urban legend",
-        "MK-Ultra revelations (real CIA program)",
-        "Cold War paranoia",
-        "1980s-90s alien abduction phenomena",
-        "Recovered memory therapy (later discredited)"
-      ]
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1942",
-        "event": "Camp Hero established",
-        "significance": "Real military installation created",
-        "source": "Military records"
-      },
-      {
-        "date": "1958",
-        "event": "SAGE radar system installed",
-        "significance": "Real AN/FPS-35 radar for air defense",
-        "source": "Military records"
-      },
-      {
-        "date": "1969",
-        "event": "Montauk Air Force Station officially deactivated",
-        "significance": "Base officially closed (though radar continued until 1980)",
-        "source": "Air Force records"
-      },
-      {
-        "date": "1971",
-        "event": "Alleged Montauk Project begins",
-        "significance": "Nichols claims experiments started this year",
-        "source": "Nichols' books only"
-      },
-      {
-        "date": "1980",
-        "event": "SAGE radar decommissioned",
-        "significance": "Real radar system shut down",
-        "source": "Military records"
-      },
-      {
-        "date": "1983",
-        "event": "Alleged project shutdown",
-        "significance": "Nichols claims catastrophic incident ended experiments",
-        "source": "Nichols' books only"
-      },
-      {
-        "date": "1992",
-        "event": "First Montauk book published",
-        "significance": "Preston Nichols' 'The Montauk Project' released",
-        "source": "Publication records"
-      },
-      {
-        "date": "2002",
-        "event": "Camp Hero becomes state park",
-        "significance": "Site open to public as parkland",
-        "source": "New York State Parks"
-      }
-    ],
-    "modern_era": "The Montauk Project story remains popular in conspiracy theory circles and has influenced popular culture, most notably the Netflix series 'Stranger Things.' Researchers and historians universally consider the claims unfounded, classifying them as conspiracy fiction rather than suppressed history."
+    "timeline": []
   },
-
-  "key_figures": {
-    "preston_nichols": {
-      "role": "Primary claimant and author",
-      "background": "Electronics engineer (self-described)",
-      "claims": [
-        "Worked on Montauk Project as technical director",
-        "Memories 'recovered' through therapy",
-        "Witnessed time travel experiments",
-        "Participated in mind control research"
-      ],
-      "publications": [
-        "The Montauk Project: Experiments in Time (1992)",
-        "Montauk Revisited (1994)",
-        "Pyramids of Montauk (1995)",
-        "Multiple sequels through 2000s"
-      ],
-      "credibility_issues": [
-        "No corroborating witnesses",
-        "No documentation provided",
-        "Relies on 'recovered memories' (discredited technique)",
-        "Story evolved and expanded over time",
-        "Financial motive (bestselling books)"
-      ]
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "al_bielek": {
-      "role": "Supporting witness",
-      "background": "Claims to have participated in both Philadelphia Experiment and Montauk",
-      "claims": [
-        "Time traveled from 1943 to 1983",
-        "Worked alongside Nichols",
-        "Original identity different, memories implanted"
-      ],
-      "credibility_issues": [
-        "Impossibly old if claims were true",
-        "No documentation",
-        "Story contradicts known history",
-        "Changed story multiple times"
-      ]
-    },
-    "duncan_cameron": {
-      "role": "Alleged test subject",
-      "background": "Claims to have been 'psychic' used in experiments",
-      "claims": [
-        "Sat in Montauk Chair",
-        "Created physical reality with mind",
-        "Time traveled"
-      ],
-      "credibility_issues": [
-        "Only source is Nichols' books",
-        "No independent verification"
-      ]
-    }
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "claimed_evidence": [
-      {
-        "type": "testimony",
-        "source": "Preston Nichols",
-        "description": "'Recovered memories' of participation",
-        "credibility": "Very low - recovered memory therapy widely discredited"
-      },
-      {
-        "type": "testimony",
-        "source": "Al Bielek",
-        "description": "Claims of time travel from 1943",
-        "credibility": "Very low - contradicts documented history"
-      },
-      {
-        "type": "location",
-        "source": "Camp Hero",
-        "description": "Real decommissioned military base",
-        "credibility": "Location exists but no evidence of alleged activities"
-      }
-    ],
-    "physical_evidence": [],
-    "documentary_evidence": [],
-    "counter_evidence": [
-      {
-        "type": "military_records",
-        "description": "Camp Hero deactivated 1969, radar shut down 1980",
-        "source": "Air Force historical records"
-      },
-      {
-        "type": "local_testimony",
-        "description": "Montauk residents unaware of any secret experiments",
-        "source": "Journalist interviews"
-      },
-      {
-        "type": "site_access",
-        "description": "Camp Hero now public state park, no secret facilities found",
-        "source": "New York State Parks"
-      },
-      {
-        "type": "scientific_impossibility",
-        "description": "Claimed technologies violate known physics",
-        "source": "Physicists' analyses"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "conspiracy": [
-      {
-        "name": "Continuation of Philadelphia Experiment",
-        "description": "Montauk continued time/teleportation research from 1943",
-        "proponents": ["Preston Nichols", "Al Bielek"],
-        "evidence_cited": ["Nichols testimony", "Alleged time tunnel connection"]
-      },
-      {
-        "name": "Alien collaboration",
-        "description": "Project involved alien technology and beings",
-        "proponents": ["Various conspiracy theorists"],
-        "evidence_cited": ["Nichols claims", "UFO sightings in area"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Complete fabrication for profit",
-        "description": "Nichols invented story to sell books",
-        "proponents": ["Skeptical researchers", "Historians"],
-        "evidence_cited": ["No corroboration", "Book sales", "Story evolution", "Recovered memory therapy issues"]
-      },
-      {
-        "name": "False memory syndrome",
-        "description": "Nichols genuinely believes false 'recovered' memories",
-        "proponents": ["Psychologists"],
-        "evidence_cited": ["Recovered memory therapy discredited", "Memory malleability research"]
-      },
-      {
-        "name": "Inspired fiction",
-        "description": "Story inspired by real MK-Ultra revelations and Philadelphia Experiment legend",
-        "proponents": ["Media researchers"],
-        "evidence_cited": ["Timing of claims", "Similarity to other conspiracy theories", "1990s satanic panic context"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
-    "media_coverage": {
-      "books": [
-        "Nichols' Montauk series (1992-2000s) - bestsellers",
-        "Numerous other conspiracy books referencing Montauk",
-        "Skeptical analyses debunking claims"
-      ],
-      "documentaries": [
-        "Various YouTube documentaries",
-        "Conspiracy theory TV show episodes"
-      ]
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "major_influence": {
-        "title": "Stranger Things",
-        "description": "Netflix series originally titled 'Montauk,' heavily inspired by conspiracy theory",
-        "elements": "Mind control experiments, child test subjects, teleportation, monsters"
-      },
-      "other": [
-        "Referenced in conspiracy theory podcasts",
-        "Urban exploration videos of Camp Hero",
-        "Part of Long Island folklore"
-      ]
-    },
-    "tourism": {
-      "camp_hero_state_park": {
-        "status": "Open to public since 2002",
-        "visitors": "Tourists and conspiracy theorists visit site",
-        "features": "Old radar tower, abandoned buildings, hiking trails",
-        "reality": "No evidence of secret facilities"
-      }
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "current_status": {
-    "evidence_level": "None - no credible evidence exists",
-    "researcher_consensus": "Unfounded - classified as conspiracy fiction",
-    "public_interest": "Remains popular due to Stranger Things and conspiracy culture",
-    "mainstream_view": "Debunked urban legend",
-    "site_status": "Camp Hero is public park, no restricted areas"
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "nichols-1992",
-      "type": "book",
-      "title": "The Montauk Project: Experiments in Time",
-      "authors": ["Preston Nichols", "Peter Moon"],
-      "publication": "Sky Books",
-      "date": "1992",
-      "isbn": "978-0963188908",
-      "note": "Primary source of claims, no independent verification"
-    },
-    {
-      "id": "air-force-records",
-      "type": "documents",
-      "title": "Camp Hero/Montauk Air Force Station Historical Records",
-      "source": "US Air Force Historical Research Agency",
-      "note": "Shows deactivation in 1969, radar shutdown 1980"
-    },
-    {
-      "id": "skeptical-analyses",
-      "type": "articles",
-      "title": "Various debunking articles",
-      "publication": "Skeptical Inquirer and other sources",
-      "note": "Analysis of claims and lack of evidence"
-    }
-  ]
+  "sources": []
 }
