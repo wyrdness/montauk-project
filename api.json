@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/montauk-project",
     "maintainers": [
       {
@@ -16,72 +16,120 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "montauk-project",
     "name": "Montauk Project",
-    "aliases": [],
-    "category": "|_CONSPIRACY_THEORY_|",
-    "subcategory": "| Description | Alleged Outcome |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Montauk Project", "region": "United States" },
+      { "name": "Camp Hero conspiracy", "region": "Montauk, Long Island, New York" }
     ],
-    "status": "documented",
+    "category": "CONSPIRACY_THEORY",
+    "subcategory": "Alleged secret government program",
+    "tags": [
+      "conspiracy",
+      "long-island",
+      "camp-hero",
+      "time-travel",
+      "mind-control",
+      "preston-nichols",
+      "philadelphia-experiment",
+      "stranger-things-influence"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "The Montauk Project refers to alleged secret US government experiments conducted at Montauk Air Force Station (Camp Hero) in Montauk, New York, during the 1970s and 1980s.",
-      "full": "The Montauk Project refers to alleged secret US government experiments conducted at Montauk Air Force Station (Camp Hero) in Montauk, New York, during the 1970s and 1980s. According to the conspiracy theory, the experiments involved time travel, teleportation, mind control, contact with extraterrestrials, and kidnapping of youth for psychological experiments. The claims originated with Preston Nichols, who published a series of bestselling books beginning in 1992 based on what he claimed were \\\"recovered memories.\\\" Despite extensive investigation, **no credible evidence has been found** to support any of the claims, and the theory is widely considered **conspiracy fiction** by researchers and historians."
+      "summary": "The Montauk Project is a conspiracy theory alleging that secret U.S. government experiments in time travel, teleportation, mind control and contact with extraterrestrials were conducted at Camp Hero / Montauk Air Force Station on Long Island, New York; the claims, originating with Preston Nichols and Peter Moon in the early 1990s, are widely characterised as fiction.",
+      "full": "The Montauk Project is a conspiracy theory that grew out of stories circulating in the early 1980s and was popularised by the book series begun in 1992 by Preston Nichols and Peter Moon (real name Vincent Barbarick). The project is alleged to have taken place at Camp Hero / Montauk Air Force Station, located at Montauk Point, Long Island, New York (approximately 41.0622 N, 71.8739 W). Claims include time travel, teleportation, psychological warfare, mind control programs, contact with extraterrestrials and even alleged involvement in faking the Apollo Moon landings, framed as a continuation of the alleged 'Philadelphia Experiment' of 1943. Nichols and his collaborator Al Bielek claimed they had recovered repressed memories of involvement. The work has been characterised as fiction (UFO researcher Jacques Vallée called the accounts 'highly questionable', and the authors themselves told readers the books could be read 'as science fiction or non-fiction'). No documentary or physical evidence supports the claims. Camp Hero State Park does exist on the site of the former Air Force station and is open to the public; its abandoned radar tower is the most-photographed Montauk Project icon. The conspiracy theory has had significant pop-culture influence, including being the working-title basis for Netflix's Stranger Things (2016-2025) and the subject of the documentary Montauk Chronicles (2015)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for Montauk, the easternmost hamlet of Long Island, New York, and specifically for Montauk Air Force Station / Camp Hero located there.",
+      "meaning": "'The Montauk Project' is the name given to the alleged secret program by Preston Nichols' book series.",
+      "first_use": "Stories circulating since the early 1980s; book series begun by Nichols and Peter Moon in 1992."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_CONSPIRACY_THEORY_|",
-      "type": "| Description | Alleged Outcome |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CONSPIRACY_THEORY",
+      "type": "Alleged secret government program",
+      "subtype": "Time travel / mind control conspiracy",
+      "variant": "American (Long Island)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "philadelphia-experiment", "name": "Philadelphia Experiment", "relationship": "related", "description": "Earlier conspiracy theory presented as a precursor to the Montauk Project in Nichols' books" },
+      { "id": "dulce-base", "name": "Dulce Base", "relationship": "similar", "description": "Other 'secret base' conspiracy theory" },
+      { "id": "area-51", "name": "Area 51", "relationship": "similar", "description": "Real military site that has accreted similar conspiracy claims" },
+      { "id": "moon-landing-hoax", "name": "Moon landing hoax", "relationship": "related", "description": "Conspiracy theory the Montauk Project literature also incorporates by claiming Montauk staged the Apollo landings" }
+    ]
   },
+
   "characteristics": {
     "physical": {
       "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "morphology": "Not a creature: an alleged secret-program conspiracy theory rather than a physical entity."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "social_structure": "unknown",
+      "habitat_preference": ["alleged operations centred on Camp Hero / Montauk Air Force Station, Long Island, New York"]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Allegedly centred at Camp Hero / Montauk Air Force Station on the eastern tip of Long Island, New York. As a conspiracy theory it has spread globally through Nichols' and Moon's books and subsequent media adaptations.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Long Island, New York",
+        "Suffolk County",
+        "Montauk Point"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Camp Hero State Park / former Montauk Air Force Station",
+        "location": {
+          "description": "Camp Hero State Park, Montauk Point, Long Island",
+          "country": "United States",
+          "region": "New York",
+          "coordinates": { "latitude": 41.0622, "longitude": -71.8739 }
+        },
+        "peak_period": "Alleged operations claimed to have taken place from 1971 onward",
+        "notes": "The decommissioned military radar tower at Camp Hero is the icon of the Montauk Project legend"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1980s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Stories circulating since the early 1980s, per Wikipedia"
+      },
+      "peak_activity_periods": [
+        { "period": "1992-2005", "description": "Publication of the Nichols / Moon Montauk Project book series and related conspiracy literature" },
+        { "period": "2015-2025", "description": "Pop-culture revival via Montauk Chronicles (2015) and Stranger Things (2016-2025)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "1980s American UFO and conspiracy subculture; the alleged Philadelphia Experiment narrative.",
+      "earliest_accounts": "Stories circulating in the 1980s; first published as a book series in 1992.",
+      "folklore_connections": "Sits within a wider American 'secret base / hidden program' conspiracy tradition that includes Area 51 and Dulce Base."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1980-01-01", "event": "Stories about an alleged secret program at Montauk begin to circulate within UFO subcultures", "significance": "Pre-publication folkloric phase", "source": "Wikipedia: Montauk Project" },
+      { "date": "1992-01-01", "event": "Preston Nichols and Peter Moon publish 'The Montauk Project: Experiments in Time', the first book in the series", "significance": "Founding text of the modern conspiracy theory", "source": "Wikipedia: Montauk Project" },
+      { "date": "2002-01-01", "event": "Camp Hero opens to the public as Camp Hero State Park", "significance": "Real public access to the alleged site", "source": "New York State Parks records (per Wikipedia)" },
+      { "date": "2015-01-01", "event": "Documentary 'Montauk Chronicles' wins best documentary at the Philip K. Dick Film Festival", "significance": "Documentary popularisation of the legend", "source": "Wikipedia: Montauk Project" },
+      { "date": "2016-01-01", "event": "Netflix's Stranger Things, with the working title 'Montauk', premieres", "significance": "Major pop-culture diffusion of Montauk Project tropes", "source": "Wikipedia: Montauk Project" }
+    ],
+    "modern_era": "The Montauk Project has had limited engagement from mainstream journalism or academic historians, who treat it as fiction. Its main cultural footprint today is via Stranger Things and via paranormal-podcast and conspiracy-literature ecosystems. Camp Hero State Park is a real, well-documented decommissioned Cold War radar installation that draws visitors partly because of the Montauk Project legend."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +140,71 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Nichols / Bielek 'recovered memory' account",
+        "description": "Preston Nichols and Al Bielek claimed to have recovered repressed memories of participation in time travel, teleportation, mind control, extraterrestrial contact, and other operations at Montauk Air Force Station.",
+        "proponents": ["Preston Nichols", "Peter Moon (Vincent Barbarick)", "Al Bielek"],
+        "evidence_cited": ["Recovered-memory testimony from Nichols and Bielek", "Continuity claimed with the alleged Philadelphia Experiment"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Fictional / unsupported claims",
+        "description": "The work has been characterised as fiction; UFO researcher Jacques Vallée called the accounts 'highly questionable', and the authors themselves told readers the books could be read 'as science fiction or non-fiction'. No documentary or physical evidence supports the claims.",
+        "proponents": ["Jacques Vallée", "Mainstream historians and journalists"],
+        "evidence_cited": ["Authors' own framing of the work", "Absence of corroborating documents", "Discrepancies with declassified Camp Hero history"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American UFO and 'secret base' conspiracy tradition"
+      ],
+      "stories": [
+        "Nichols' time-travel and mind-control accounts",
+        "Stories of 'Montauk Boys' kidnapped for psychological experiments"
+      ],
+      "beliefs": "Belief in the Montauk Project is concentrated in conspiracy and paranormal subcultures and is widely rejected by historians and journalists."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Montauk Project: Experiments in Time — Preston Nichols and Peter Moon (1992)",
+        "Subsequent volumes in the Montauk Project book series (Sky Books, 1990s-2000s)"
+      ],
+      "film_tv": [
+        "Montauk Chronicles (2015 documentary; best documentary, Philip K. Dick Film Festival)",
+        "Stranger Things (Netflix, 2016-2025; working title 'Montauk', inspired by the conspiracy)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Camp Hero State Park: real public park on the site of the former Montauk Air Force Station"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No ongoing mainstream research; the Montauk Project is treated as a conspiracy-theory case study rather than a research program."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-montauk-project", "type": "website", "title": "Montauk Project", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Montauk_Project", "accessed": "2026-05-07" },
+    { "id": "nichols-moon-1992", "type": "book", "title": "The Montauk Project: Experiments in Time", "authors": ["Preston B. Nichols", "Peter Moon"], "publication": "Sky Books", "date": "1992", "isbn": "978-0963188908" }
+  ]
 }
